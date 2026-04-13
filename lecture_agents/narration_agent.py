@@ -75,7 +75,10 @@ Current slide index: {idx} (1-based).
 --- arc.json ---
 {json.dumps(arc, ensure_ascii=False, indent=2)}
 
---- this slide's description (from slide_description.json) ---
+--- slide_description.json (full document) ---
+{json.dumps(slide_doc, ensure_ascii=False, indent=2)}
+
+--- this slide's description (same as slide_description.json entry for index {idx}) ---
 {desc}
 
 --- prior slide narrations (JSON; may be empty) ---
