@@ -1,0 +1,15 @@
+Welcome to Lecture 17. Today we are talking about AI and screenplays—how structure,
+beats, and genre conventions show up when models try to write like humans.
+
+So, um, the plan is pretty simple: first we’ll frame why this matters for creative tools,
+then we’ll walk through a concrete example, right? You’ll see how acts and scenes map
+to model outputs, and where the failure modes are.
+
+The key idea is this—screenplays are not just prose. They’re a format with constraints:
+slug lines, dialogue, pacing. If you ignore that, the model sounds fluent but wrong.
+
+Let’s slow down on one term: a “beat” is a smallest unit of narrative turn—someone wants
+something, something changes. We’ll come back to that on the next slide.
+
+Next, I want you to notice how I’m moving: claim, example, takeaway. That’s intentional.
+We’ll reuse that rhythm when we critique model-generated scenes together.

@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.env
+.venv/
+venv/
+
+# Generated media (assignment: do not commit)
+**/slide_images/*.png
+**/audio/*.mp3
+**/*.mp4
+**/*.wav
+**/segment_*.mp4
+**/concat_list.txt
+projects/project_*/
+
+# Optional: keep style.json if you regenerate locally and do not want to commit
+# style.json
