@@ -10,7 +10,7 @@ This repository implements a multi-stage, agent-style pipeline that turns **Lect
 
 Place these files at the repository root before running:
 
-- `Lecture_17_AI_screenplays.pdf` (assignment deck; not committed here if large—add locally)
+- `Lecture_17_AI_screenplays.pdf` (lecture slide deck at repo root)
 - `lecture_transcript.txt` (instructor transcript used to build `style.json`)
 
 ## Install
@@ -80,6 +80,15 @@ your-repo/
 ```
 
 Large artifacts (`*.png`, `*.mp3`, `*.mp4`) are listed in `.gitignore` per submission instructions.
+
+### Grading / what to commit
+
+After a **full successful run** (with a real API key, not `--mock-ai`), **commit the generated JSON** so the grader can review outputs without re-running:
+
+- `style.json` (repo root)
+- Under `projects/project_YYYYMMDD_HHMMSS/`: `premise.json`, `arc.json`, `slide_description.json`, and `slide_description_narration.json`
+
+Do **not** commit `slide_images/`, `audio/`, `*.mp4`, or `segments_tmp/` — they stay ignored.
 
 ## Creating a tiny PDF for local tests
 

@@ -8,14 +8,11 @@ build/
 .venv/
 venv/
 
-# Generated media (assignment: do not commit)
+# Generated media only — commit JSON under projects/ per course rubric (no PNG/MP3/MP4 in repo)
 **/slide_images/*.png
 **/audio/*.mp3
 **/*.mp4
 **/*.wav
 **/segment_*.mp4
 **/concat_list.txt
-projects/project_*/
-
-# Optional: keep style.json if you regenerate locally and do not want to commit
-# style.json
+**/segments_tmp/
